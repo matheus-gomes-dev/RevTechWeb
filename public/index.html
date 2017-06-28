@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>RevTechWeb</title>
+			<link rel="stylesheet" href="stylesheets/bootstrap.css"/>
+			<link rel="stylesheet" href="stylesheets/main.css"/>
+			<link rel="stylesheet" href="stylesheets/foundation-icons/foundation-icons.css"/>
+			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script src="javascripts/main.js"></script>
+		</head>
+
+	<body>
+		<div class="container-fluid">
+
+			<!-- Fixed navbar -->
+			<br>
+			<div class="row visible-md visible-lg">
+			    <nav class="navbar navbar-default navbar-fixed-top">
+			      <div class="container">
+			        <div class="navbar-header">
+			        	<br>
+			          	<img src="images/logo4.PNG">
+			        </div>
+				    <div id="navbar" class="nav navbar-nav navbar-right">
+			          <ul class="nav navbar-nav">
+			          	<br>
+			            <li><a id="homeNav">Home</a></li>
+			            <li><a id="sobreNav">Sobre</a></li>
+			            <li><a id="servicosNav">Serviços</a></li>
+			            <li><a id="noticiasNav">Notícias</a></li>
+			            <li><a id="contatoNav">Contato</a></li>
+			          </ul>
+			        </div><!--/.nav-collapse -->
+			      </div>
+			    </nav>
+			</div>
+			<br><br>
+			<!-- -->
+
+			<div class="row visible-md visible-lg" id="styleLine">
+			</div>
+
+			<div class="largerDevice visible-md visible-lg">
+				<p class="textsize1">Soluções inteligentes</p>
+				<p class="textsize1">para o seu negócio</p>
+				<br><br><br>
+				<p class="textsize2">Desenvolvimento moderno e</p>
+				<p class="textsize2">eficiente em aplicações web</p>
+			</div>
+
+			<div class="smallerDevice visible-sm">
+				<p class="textsize3">Soluções inteligentes</p>
+				<p class="textsize3">para o seu negócio</p>
+				<br><br>
+				<p class="textsize4">Desenvolvimento moderno e</p>
+				<p class="textsize4">eficiente em aplicações web</p>
+			</div>
+
+
+			<!-- Header para devices sm e xs -->
+			<div class="row text-center visible-sm visible-xs smallDeviceHeader">
+			    <br>
+			    <img id="smallDeviceLogo" src="images/logo4.png">
+			</div>
+			<!-- -->
+
+
+
+			<!--Ver referência em http://stackoverflow.com/questions/26479168/bootstrap-and-text-on-responsive-image-->
+
+			<!-- exibe imagem background (devices > sm)-->
+				<div class="row visible-sm visible-md visible-lg" id="imageBackground">
+					<img class="img-responsive" id="image" src="images/main4.png" alt="Chania">
+				</div>
+			<!-- -->
+
+			<!-- exibe imagem background (devices = xs)-->
+				<div class="row visible-xs" id="imageBackground">
+					<img class="img-responsive" id="imagexs" src="images/main4.png" alt="Chania">
+				</div>
+			<!-- -->
+
+			<div class="row" id="divSobre">
+				<div class="text-center">
+					<h1 class="whiteHeader">Sobre</h1>
+				</div>
+				<br>
+				<div class="col-md-5 col-md-offset-1 sobre-paragraph">
+					<p>
+						A RevTech é uma empresa jovem, fundada em 2017, com o objetivo de oferecer ao mercado uma 	abordagem
+						moderna e eficiente no desenvolvimento de aplicações web. Contamos com uma rede de desenvolvedores e 
+						designers disponíveis para
+					</p>
+				</div>
+				<div class="col-md-5 sobre-paragraph">
+					<p>
+						atender as demandas de cada projeto, priorizando os resultados e cumprimento 
+						dos prazos. Ao longo de todo o processo, trabalhamos para que o cliente esteja sempre atualizado 
+						sobre o andamento das etapas de desenvolvimento.
+					</p>
+				</div>
+			</div>
+			<div class="row styleDiv"></div>
+
+
+			<div class="row" id="divServicos">
+				<div class="text-center">
+					<h1 class="blueHeader">Serviços</h1>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6 text-center icon servicos">
+					<i class="fi-laptop icon-test"></i>
+					<br>
+					<p>Aplicação na nuvem: seu</p>
+					<p>projeto acessível de qualquer</p>
+					<p>lugar, no ambiente web</p>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-sm-6 text-center servicos">
+					<i class="fi-graph-trend icon-test"></i>
+					<p>Desenvolvimento moderno: adotamos</p>
+					<p>as melhores práticas para sua aplicação,</p>
+					<p>assegurando eficiência e escalabilidade</p>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-sm-6 text-center servicos">
+					<i class="fi-mobile icon-test"></i>
+					<p>Design responsivo: aplicações</p>
+					<p>compatíveis para todas as plataformas,</p>
+					<p>do mobile ao desktop</p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 text-center servicos">
+					<i class="fi-widget icon-test"></i>
+					<p>Você no controle: desenvolvimento</p>
+					<p>feito de forma customizável</p>
+					<p>e de fácil manutenção</p>
+				</div>
+			</div>
+			<br><br>
+
+
+			<!--
+			<div class="row" id="divBlog">
+				<div class="text-center">
+					<h1 class="whiteHeader">Blog</h1>
+				</div>
+				
+				<div id="imgTeste">
+				</div>
+			</div>
+			-->
+			<div class="row" id="divBlog">
+				<div class="text-center">
+					<h1 class="whiteHeader">Notícias</h1>
+				</div>
+				<br>
+
+				<!--imagens background de cada notícia-->
+					<!--
+					<div class="col-md-3 noticia" id="noticia1">
+					</div>
+
+					<div class="col-md-3 noticia" id="noticia2">
+					</div>
+
+					<div class="col-md-3 noticia" id="noticia3">
+					</div>
+
+					<div class="col-md-3 noticia" id="noticia4">
+					</div>
+					-->
+				<!-- -->
+
+				<!-- descrição de cada notícia -->
+				<div class="row">
+					<div class="col-md-3 text-center">
+
+						<div class="noticia" id="noticia1">
+						</div>
+						<p class="newsDescription"><a target="_blank" href="https://ecommercenews.com.br/noticias/balancos/dia-das-maes-movimentara-r173-bilhao-no-comercio-eletronico-em-2017-aponta-ebit"><u>Dia das mães movimentará R$1.73 bilhão no comércio eletrônico</u></a></p>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="noticia" id="noticia2">
+						</div>
+						<p class="newsDescription"><a target="_blank" href="https://ecommercenews.com.br/noticias/lancamentos/franquia-de-chatbots-quer-crescer-mirando-segmento-de-pmes"><u>Chatbots: nova tendência no mercado para estimular as vendas</u></a></p>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="noticia" id="noticia3">
+						</div>
+						<p class="newsDescription"><a target="_blank" href="https://canaltech.com.br/noticia/android/android-supera-windows-como-sistema-operacional-mais-usado-do-mundo-91596/"><u>Android supera Windows como sistema operacional mais usado do mundo</u>
+						</a></p>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="noticia" id="noticia4">
+						</div>
+						<p class="newsDescription"><a target="_blank" href="https://ecommercenews.com.br/noticias/pesquisas-noticias/o-futuro-do-email-marketing-e-foco-de-pesquisa-inedita"><u>
+						O futuro do email marketing é foco de pesquisa inédita
+						</u></a></p>
+					</div>
+				</div>
+				<!-- -->
+			</div>
+			<div class="row styleDiv"></div>
+
+
+			<!--footer-->
+			<footer class="text-center">
+	        	<div class="footer-above">
+					<div class="row">
+						<div class="container-fluid" id="footer">
+							<div class="footer-col col-xs-12 col-md-6">
+		                        <h3><b>LOCALIZAÇÃO</b></h3>
+		                        <p>REVTECH TECNOLOGIA DA INFORMAÇÃO</p>
+		                        <p>Estrada São Francisco, Taboão da Serra - 1800</p>
+		                        <p>São Paulo - BR</p>
+							</div>
+
+							<div class="footer-col col-xs-12 col-md-6">
+		                        <h3 id="mediaH3"><b>CONTATO</b></h3>
+		                        <br>
+		                        <p>revtech.projetos@gmail.com</p>
+		                        <p>revtech.contato@gmail.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		<!-- -->
+
+
+		</div>
+	</body>
+
+</html>

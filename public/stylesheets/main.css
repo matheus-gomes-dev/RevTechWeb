@@ -1,0 +1,236 @@
+#whiteSpace{
+    height: 100px;
+    background-color: white;
+}
+
+li{
+    font-size: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.nav-pills li {
+    margin-left: 25px; 
+} 
+
+
+
+#styleLine{
+    background-color: #1f245b;
+    height: 40px;
+}
+
+.styleDiv{
+    height: 25px;
+    background-color: #1f245b;
+}
+
+.largerDevice{
+    top: 140px;
+    position: absolute;
+    padding-left: 100px;
+    color: white;
+}
+
+.smallerDevice{
+    top: 140px;
+    left: -30px;
+    position: absolute;
+    padding-left: 100px;
+    color: white;
+}
+
+.textsize1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.textsize2{
+    font-size: 30px;
+}
+
+.textsize3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textsize4{
+    font-size: 20px;
+}
+
+.smallImage{
+    width: 100%;
+    height: 350px;
+}
+
+.icon-test{
+    color: #1f245b;
+    font-size: 150px;
+}
+
+.servicos{
+    font-size: 15px;
+}
+
+
+#divSobre{
+    
+    background-color: #1f245b;
+    color: white;
+    
+
+    /*
+    background-color: white;
+    color: #1f245b;
+    */
+}
+
+.whiteHeader{
+    font-size: 60px;
+    color: white;
+}
+
+.blueHeader{
+    font-size: 60px;
+    color: #1f245b;
+}
+
+.sobre-paragraph{
+    font-size: 21px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+.servicos{
+    color: #1f245b;
+    font-family: 'Raleway', sans-serif;
+}
+
+#servicosHeader{
+    font-size: 60px;
+}
+
+
+#divBlog{
+    
+    background-color: #1f245b;
+    color: white;
+}
+
+#imgTeste{
+    width: 350px;
+    height: 350px;
+    border: solid 2px black;
+    position: relative;
+    left: 150px;
+}
+
+#noticia1{
+    background-image: url("https://ecommercenews.com.br/wp-content/uploads/2017/05/pesquisa-online.jpg");
+}
+
+#noticia2{
+    background-image: url("https://ecommercenews.com.br/wp-content/uploads/2017/05/robo-1-1.jpg");
+}
+
+#noticia3{
+    background-image: url("http://wirelessrev.ca/wp-content/uploads/2016/06/telefon_0.jpg");
+}
+
+#noticia4{
+    background-image: url("https://assets.papodehomem.com.br/2016/10/10/18/05/01/8149f787-b8f7-4b1b-8019-6e6485ca6a88/email.jpg");
+}
+
+.noticia{
+    height: 300px;
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+
+.newsDescription{
+    color: white;   
+}
+
+.newsDescription:hover{
+    background-color: none;   
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#footer{
+    background-color: #242526;
+    color: white;
+}
+
+.navbar{
+    background-color: white;
+}
+
+
+.smallDeviceHeader{
+    height: 50px;
+}
+
+#smallDeviceLogo{
+    position: relative;
+    bottom: 50px;
+}
+
+/*
+li{
+    color: red;
+    background-color: blue;
+    font;
+}
+*/
+
+#imagexs{
+    height: 300px;
+}
+
+
+/*
+@media (max-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+*/
+
+.teste{
+    color: black;
+}
+
+
+
+#sobreNav{
+    color: black;
+}
+
+#servicosNav{
+    color: black;
+}
+
+#noticiasNav{
+    color: black;
+}
+
+#contatoNav{
+    color: black;
+}
+
+#sobreNav{
+    color: black;
+}
